@@ -1,0 +1,15 @@
+string_1 =("Python programming is the best course to learn")
+A = len(string_1)
+print ("So luong ky tu =",A)
+B = string_1[0:5]
+print ("5 Ky tu dau tien :",B)
+C = string_1[-10:]
+print ("10 Ky tu cuoi cung :",C)
+D = string_1.replace("Python","DUT")
+print ("ket qua thay doi ky tu :",D)
+E = string_1.find("best")
+print ("Vi tri cua chu 'best':",E)
+F = string_1.isupper()
+print ("Doan string tren co phai la chu cai in hoa het khong : ",F)
+G = string_1.split()
+print (G)
