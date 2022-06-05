@@ -1,0 +1,10 @@
+list = ["apple" ,"banana" ,"cherry" ,"orange" ,"kiwi" ,"melon" ,"mango" ]
+print(*list)
+print("lay ra 2 item dau tien cua list")
+print(list[0:2])
+print("lay ra 2 item cuoi cung cua list")
+print(list[-3:-1])
+print("loai bo di item dau tien va item cuoi cung trong list")
+list.pop(0)
+list.pop(1)
+print(*list)
